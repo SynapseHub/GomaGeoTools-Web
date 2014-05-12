@@ -1,0 +1,513 @@
+
+/* CSS Document */
+html, body {
+  height: 100%;
+  overflow: contain;
+}
+
+body {
+  padding: 50px 0 0 0;
+}
+.offcanvas{
+	max-width: 200px;
+}
+
+.navbar-toggle1 {
+  float: left;
+  margin-left: 15px;
+border-radius: 50%;
+padding: 0;
+
+}
+.navbar-toggle1:focus {outline:none;}
+
+.navmenu.canvas-sliding,
+.navmenu.canvas-slid {
+  z-index: 2000;
+}
+
+
+@media (min-width: 0px) {
+  .navbar-toggle1 {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    padding: 0;
+  }
+  
+}
+body, html{
+	height:100%;
+	width:100%;
+	padding:0;
+	margin:0;
+}
+
+#map-holder{
+	height:100%;
+	width:100%;
+	position:relative;
+}
+
+.gm-style-iw{
+	padding: 1px;
+}
+.btn-infowindow {
+  color: #ffffff;
+background-color: green;
+  border-color: #4cae4c;
+  min-height: 100%;
+  padding-right: 8px;
+  padding-left:10px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  margin-bottom: 0;
+  font-size: 14px;
+  border-radius: 10px;
+
+}
+.btn1, .btn2, .btn3, .btn4{
+	border: 0;
+}
+
+.btn-lg, .modal-content{
+	border-radius: 15px;
+}
+#btnstop, #request_button, #gettaxi{
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	background-color: #2181f7;
+}
+.modal-content{
+	/*background-image: url('../img/background.jpg');*/
+	/*background-color: #dee2e2;*/
+	background: transparent;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.eeee{
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+#mobile, #pickup, #dropoff{
+	
+border-radius: 10px;
+margin-left: 10px;	
+}
+.col-xs-1, .col-xs-10{
+	padding: 0;
+}
+.col-xs-10{
+	margin-left: 10px;
+	padding-right: 5px;
+}
+.col-xs-1{
+	margin-left: 5px;
+}
+input{
+	min-height: 30px;
+	max-height: 30px;
+	min-width: 100%;
+}
+ .btn-groups > .btn:first-child{
+	background-image: url('../images/icons/boda.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	height: 40px; 
+}
+ .btn-groups > .btn2{
+	background-image: url('../images/icons/taxi.png');
+	background-repeat:no-repeat;
+	background-position:center; 
+	height: 40px;
+}
+ .btn-groups > .btn3{
+	background-image: url('../images/icons/4by4.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	height: 40px; 
+
+} 
+.btn-groups > .btn5{
+	background-image: url('../images/icons/fav-inactive.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	border: 0; 
+	height: 40px;
+}
+ .btn-groups > .btn4{
+	background-image: url('../images/icons/luxury.png');
+	background-repeat:no-repeat;
+	background-position:center; 
+	height: 40px;
+	
+} 
+
+.btn-groups > .btn1:active,.btn-groups > .btn1.active {
+ background-image: url('../images/icons/boda-active.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	box-shadow: none;
+	border: 0; 
+	height: 40px;
+}
+.btn-groups > .btn2:active,.btn-groups > .btn2.active {
+ background-image: url('../images/icons/taxi-active.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	box-shadow: none; 
+	border: 0;
+	height: 40px;
+}
+.btn-groups > .btn3:active,.btn-groups > .btn3.active {
+ background-image: url('../images/icons/4by4-active.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	box-shadow: none;
+	border: 0; 
+	height: 40px;
+}
+.btn-groups > .btn4:active,.btn-groups > .btn4.active {
+ background-image: url('../images/icons/luxury-active.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	box-shadow: none; 
+	border: 0;
+	height: 40px;
+}
+.btn-groups > .btn5:active,.btn-groups > .btn5.active {
+ background-image: url('../images/icons/fav-active.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	box-shadow: none; 
+	border: 0;
+	height: 40px;
+}
+.btn-groups{
+	min-height: 55px;
+	margin-top: 5px;
+}
+hr{
+	 border-top: 1px solid #979b9c ;
+}
+.input-group-addon{
+background:green;
+color:white;
+border:0px;
+}
+.modal-body {
+  padding-top: 10px;
+
+}
+.eee img{
+	margin-left: 10px;
+}
+
+
+.pays{
+	margin-top: 10%;
+}
+
+#panel{
+	position:absolute;
+	width:500px;
+	height: auto;
+	max-height: 80%;
+	border:1px solid #7ABEE7;
+	right:15px; bottom:65px;
+	font-family:"Trebuchet MS";
+	border-radius:5px;
+	font-weight:100;
+	z-index:200;
+	overflow:auto;
+	font-size:13px;
+}
+
+
+
+#panel-title{
+	font-size:24px;
+	font-weight:800;
+	color:#E9F3FC;
+	padding:15px 25px;
+	text-shadow:0px -1px 0px #0E4563;
+	box-shadow:0px 0px 3px #0C2132;
+	background-color:#2D8FD9;
+	text-align:left;
+}
+
+#panel-body{
+	padding-bottom:15px;
+}
+
+#panel-body .title-field{
+	color:#576364;
+	font-size:14px;
+	clear:both;
+	padding:5px 20px;
+}
+
+#panel-body h3{
+	color:#263944;
+	padding:5px 15px;
+	font-size:15px;
+}
+
+#map{
+	height:100%;
+	width:100%;
+}
+.pac-container {
+  z-index: 1040 !important;
+}
+
+#header{
+	font-size:18px;
+	font-weight:100;
+	padding:10px 25px;
+	text-shadow:0px -1px 0px #ddd;
+	border-bottom:1px solid #8B7A7A;
+	box-shadow:0px 0px 3px #726867;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #fff), to( #E4DFDE ));
+	background-image: -webkit-linear-gradient( #fff, #E4DFDE );
+	background-image:    -moz-linear-gradient( #fff, #E4DFDE );
+	background-image:     -ms-linear-gradient( #fff, #E4DFDE );
+	background-image:      -o-linear-gradient( #fff, #E4DFDE );
+	position:absolute;
+	top:0px; right:0px; left:0px;
+	z-index:250;
+}
+
+
+
+#menuBottom{
+	height: 48px;
+	border-radius: 0px;
+	position: fixed;
+  		z-index: 1030;
+    	bottom: 0 !important;
+    	left: 0;
+    	right: 0;
+    	font-size:20px; 
+    	vertical-align: middle;
+}
+#car-options{
+	min-height: 50px;
+	border-radius: 0px;
+	position: fixed;
+    	bottom:0;
+    	left: 0;
+    	right: 0;
+    	margin-bottom: 48px !important;
+}
+
+       /*spinner styling */
+     /* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   speak for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.modal4 {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 0,0,0, .7)
+                url('http://maramoja.co.ke/img/progress_bar.gif')
+                50% 50%
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal4 {
+    display: block;
+}
+
+#directionsPanel, .distance-time{
+	background: white !important;
+	min-height: 40px;
+}
+.distance-time{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+	 /*end of  spinner styling */
+
+@media (min-width: @screen-sm-min) { 
+	#map{
+		height: 100%;
+	}
+	#map-holder{
+	height:100%;
+	width:100%;
+	position:relative;
+}
+
+ }
+
+
+
+
+@media (max-width: 480px), handheld{
+	#panel{
+		top:60px; right:10px; bottom:10px; left:10px;
+		width:auto;
+	}
+
+	#map{
+		height: 100%;
+	}
+	#map-holder{
+	height:100%;
+	width:100%;
+	position:relative;
+}
+
+}
+
+
+
+
+
+.pac-container{
+	border-top:none;
+}
+
+.pac-item{
+	padding:5px 8px;
+	color:#464646;
+	font-size:13px;
+}
+
+.pac-item:hover{
+	color:#111;
+	background-color:#CFE3FC;
+	box-shadow:0px 0px 3px #6891A4;
+}
+  .adp-directions{
+            display: none;
+          }
+          .adp-legal{
+            display: none;
+          }
+         html,body, .row, .container, .map { height: 97% }
+         .row{
+          margin-top: 50px;
+         }
+         .menubutton{
+          border-radius: 0px;
+         }
+         
+
+	fieldset {
+ border: solid 1px #dee2e2;
+ padding: 1.25em;
+ margin: 1.125em 0; }
+ fieldset legend {
+   font-weight: bold;
+   padding: 0 0.1875em;
+   margin: 0;
+   margin-left: -0.1875em; }
+
+
+body{
+    color: #dee2e2;
+font-family: 'Roboto Condensed', sans-serif;
+  }
+  .row{
+  	margin-top: 0;
+  	padding-top: 0;
+  }
+  #map-canvas {
+  height: 100%;
+  position: absolute; 
+  top: 0; 
+  bottom: -100px; 
+  left: 0; 
+  right: 0; 
+  z-index: 0;
+}
+#lead{
+  font-size: 1.5em;
+}
+ 
+#container {
+  z-index: 20;
+ background-color:rgba(0,0,0,0.9);
+ min-height: 100%;
+  position: relative;
+position: absolute; left: 0px; top: 0px; 
+             right: 0px; 
+             height: 50px; 
+             z-index: 100 
+}
+
+/*directions api styling*/
+.adp-placemark{
+	display: none;
+}
+
+.carousel-inner{
+color: black;
+background-color: #dee2e2;
+}
+
+#waiting{
+	margin-top: 60px !important;
+	min-width: 100%;
+}
+
+hr.message-inner-separator
+{
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.alert-blue {
+  color: white;
+  background-color: #2181f7;
+  border-color: #080808;
+}
+.alert h4 {
+  margin-top: 0;
+  background-color: #2181f7;
+}
+
+
+.glyphicon {
+  position: relative;
+    right: 25px;
+    padding: 10px 12px;
+}
+
+.row.eeee.validationErrs{
+	display: none;
+}
+
+.row.eeee.validationErrs .err{
+	color:#ff0000;
+	padding-left: 12px;
+	padding-top: 6px;
+	font-weight: normal;
+}
+
